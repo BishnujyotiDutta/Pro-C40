@@ -88,7 +88,7 @@ function draw() {
     if (ground.x < 0){
       ground.x = ground.width/2;
     }
-   if(score ===10){
+   if(score ===1000){
      gameState = END
      win.visible = true;
      gameOver.visible = false;
